@@ -1,0 +1,71 @@
+# Байт-код Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Виртуальные окружения
+venv/
+ENV/
+env/
+.venv/
+.env/
+
+# Установочные файлы и зависимости
+*.egg-info/
+.installed.cfg
+*.egg
+dist/
+build/
+
+# Логи и базы данных
+*.log
+*.sqlite3
+*.db
+
+# ОС и редакторы
+.DS_Store
+Thumbs.db
+*.swp
+*~
+.swp
+
+# IDE и редакторы
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+.project
+.pydevproject
+
+# Локальные конфиги и настройки
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# mypy
+.mypy_cache/
+
+# pytest
+.pytest_cache/
+
+# coverage
+.coverage
+htmlcov/
+
+# setuptools
+MANIFEST
+
+# macOS
+._*
+
+# Windows
+desktop.ini
+
+# Собственные файлы (раскомментируйте и настройте под себя)
+# secrets.json
+# config.ini
